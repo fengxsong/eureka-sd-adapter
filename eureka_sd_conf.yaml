@@ -1,0 +1,8 @@
+eureka_sd_adapter_configs:
+  - eureka_server:
+      - http://eureka.example.com/eureka
+    timeout: 10s
+    refresh_interval: 60s
+    labels:
+      eureka: test
+      zone: gz
